@@ -1,5 +1,5 @@
 # Timerable ⏰
-## The most perfect Swift Timer you'll ever need.
+### The most perfect Swift Timer you'll ever need.
 A protocol-oriented Timer Factory with all the features you'll ever need.
 I wrote it in both RxSwift and Native Swift. hope you'll enjoy.
 If you find this useful don't forget to star ⭐️.
