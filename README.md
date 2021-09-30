@@ -20,7 +20,8 @@ The RxSwift Timer. If you are using RxSwift you can use this File.
 # Usage
 1. Simply just download and add  `RxTimerable` or `Timerable` to your project.
 2. in the class or wherever you want to use this Timer simply add these lines of codes.
-⚠️ for better understanding read the line by line code documentation ⚠️
+
+ ⚠️ for better understanding read the line by line code documentation ⚠️
 ``` 
 let timer = TimeCounter()
 let decreasingTime = TimeDecreasing(time: [.seconds(30)])
