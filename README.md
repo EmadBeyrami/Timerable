@@ -45,29 +45,29 @@ timer.bind { model in
 To use timer we need an instance:
 `let timer = TimeCounter()`
 
-to tell timer what to do, we need a set of rules so we can pass whatever conforms to `Timerable` Protocol to initial the timer /n
+to tell timer what to do, we need a set of rules so we can pass whatever conforms to `Timerable` Protocol to initial the timer <br />
 `timer.setTimer(time: Timerable)`
 
-I already made two type of `Timerable` in `TimerModels.swift` containing `TimeIncreasing` and `TimeDecreasing`.
-for decreasing Timer you can use: /n
+I already made two type of `Timerable` in `TimerModels.swift` containing `TimeIncreasing` and `TimeDecreasing`. <br />
+for decreasing Timer you can use: <br />
 `let decreasingTime = TimeDecreasing(time: [.seconds(30)])`
-for increasing Timer you can use: /n
+for increasing Timer you can use: <br />
 `let increasingTime = TimeIncreasing(time: [.days(1), .minutes(34), .seconds(20)])`
-
-after assigning initial values you MUST START the timer, to do so: /n
+<br />
+after assigning initial values you MUST START the timer, to do so: <br />
 `timer.start()`
-
-for binding to Timer there are two callbacks:
-1. for binding to update the UI or do something in each interval you must use:
+<br />
+for binding to Timer there are two callbacks: <br />
+1. for binding to update the UI or do something in each interval you must use: <br />
 ``
 timer.bind { model in
     print("log", model)
 } 
 ``
-
+<br />
 ⚠️ Note: Do not forget to use `weak self` or `unowned self` to avoid retain cycle.
-
-2. for binding to finishing timer you should use:
+<br />
+2. for binding to finishing timer you should use: <br />
 ``
 timer.timerDidEnd { in
     print("Time Ended ")
