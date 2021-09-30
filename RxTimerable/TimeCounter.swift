@@ -8,6 +8,7 @@ import RxSwift
 import RxCocoa
 
 typealias Completion = (() -> Void)
+typealias DataCompletion<T> = ((T) -> Void)
 
 class TimeCounter {
     
