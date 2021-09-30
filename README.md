@@ -60,14 +60,11 @@ after assigning initial values you MUST START the timer, to do so: <br />
 <br />
 for binding to Timer there are two callbacks: <br />
 1. for binding to update the UI or do something in each interval you must use: <br />
-``
+```
 timer.bind { model in
     print("log", model)
 } 
-``
-<br />
-⚠️ Note: Do not forget to use `weak self` or `unowned self` to avoid retain cycle.
-<br />
+```
 
 2. for binding to finishing timer you should use: <br />
 ```
@@ -75,3 +72,6 @@ timer.timerDidEnd { in
     print("Time Ended ")
 }
 ```
+<br />
+⚠️ Note: Do not forget to use `weak self` or `unowned self` to avoid retain cycle.
+<br />
