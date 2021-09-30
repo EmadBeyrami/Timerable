@@ -10,6 +10,7 @@ If you find this useful don't forget to star ⭐️.
 - Disposable: Instead of calling deinit to invalidate timer and remove the timer from memory manually just use this and it will do that automatically.
 - Protocol Oriented: You can conform to this protocol to easily use it.
 - Reactive
+- Testable
 - Developer friendly
 
 ## Timerable
@@ -44,27 +45,31 @@ timer.bind { model in
 To use timer we need an instance:
 `let timer = TimeCounter()`
 
-to tell timer what to do, we need a set of rules so we can pass whatever conforms to `Timerable` Protocol to initial the timer
+to tell timer what to do, we need a set of rules so we can pass whatever conforms to `Timerable` Protocol to initial the timer /n
 `timer.setTimer(time: Timerable)`
 
 I already made two type of `Timerable` in `TimerModels.swift` containing `TimeIncreasing` and `TimeDecreasing`.
-for decreasing Timer you can use:
+for decreasing Timer you can use: /n
 `let decreasingTime = TimeDecreasing(time: [.seconds(30)])`
-for increasing Timer you can use:
+for increasing Timer you can use: /n
 `let increasingTime = TimeIncreasing(time: [.days(1), .minutes(34), .seconds(20)])`
 
-after assigning initial values you MUST START the timer, to do so:
+after assigning initial values you MUST START the timer, to do so: /n
 `timer.start()`
 
 for binding to Timer there are two callbacks:
 1. for binding to update the UI or do something in each interval you must use:
-`timer.bind { model in
+``
+timer.bind { model in
     print("log", model)
-}`
+} 
+``
 
 ⚠️ Note: Do not forget to use `weak self` or `unowned self` to avoid retain cycle.
 
 2. for binding to finishing timer you should use:
-`timer.timerDidEnd { in
+``
+timer.timerDidEnd { in
     print("Time Ended ")
-}`
+}
+``
