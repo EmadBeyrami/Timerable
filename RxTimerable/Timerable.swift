@@ -7,13 +7,13 @@ import Foundation
 protocol Timerable {
     var time: [TimeIntervalType] { get }
     var timerType: TimerType { get }
-    var repeatTime: Double { get }
+    var repeatTime: Int { get }
     var jumpInterval: Double { get }
     var endTime: [TimeIntervalType] { get }
 }
 
 extension Timerable {
-    var repeatTime: Double { 1 }
+    var repeatTime: Int { 1 }
     var jumpInterval: Double { 1 }
 }
 
