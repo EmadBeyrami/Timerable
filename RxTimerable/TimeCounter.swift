@@ -7,6 +7,8 @@ import Foundation
 import RxSwift
 import RxCocoa
 
+typealias Completion = (() -> Void)
+
 class TimeCounter {
     
     private (set) var state: TimerState?
