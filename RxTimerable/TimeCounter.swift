@@ -112,6 +112,7 @@ class TimeCounter {
     
     private func timeDone() {
         timeEnded()
+        state = .suspended
         sourceObservable?.dispose()
     }
     
