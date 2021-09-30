@@ -41,7 +41,7 @@ timer.bind { model in
 }
 ```
 
-## line by line guideline
+## Line by Line guideline
 To use timer we need an instance: <br />
 `let timer = TimeCounter()`
 
@@ -75,5 +75,5 @@ timer.timerDidEnd { in
 }
 ```
 <br />
-⚠️ Note: Do not forget to use `weak self` or `unowned self` to avoid retain cycle.
+⚠️ Note: Do not forget to use `[weak self]` or `[unowned self]` to avoid retain cycle.
 <br />
