@@ -7,7 +7,7 @@ import Foundation
 import RxSwift
 import RxCocoa
 
-class STRTimeCounter {
+class TimeCounter {
     
     private (set) var state: TimerState?
     
