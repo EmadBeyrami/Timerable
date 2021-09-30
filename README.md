@@ -50,25 +50,25 @@ To tell timer what to do, we need a set of rules so we can pass whatever conform
 
 I already made two type of `Timerable` in `TimerModels.swift` containing `TimeIncreasing` and `TimeDecreasing`. <br />
 <br />
-for decreasing Timer you can use: <br />
+For decreasing Timer you can use: <br />
 `let decreasingTime = TimeDecreasing(time: [.seconds(30)])` <br />
 <br />
-for increasing Timer you can use: <br />
+For increasing Timer you can use: <br />
 `let increasingTime = TimeIncreasing(time: [.days(1), .minutes(34), .seconds(20)])` <br />
 <br />
-after assigning initial values you MUST START the timer, to do so: <br />
+After assigning initial values you MUST START the timer, to do so: <br />
 `timer.start()`
 <br />
 <br />
-for binding to Timer there are two callbacks:
-1. for binding to update the UI or do something in each interval you must use: <br />
+For binding to Timer there are two callbacks:
+1. For binding to update the UI or do something in each interval you must use: <br />
 ```
 timer.bind { model in
     print("log", model)
 } 
 ```
 
-2. for binding to finishing timer you should use: <br />
+2. For binding to finishing timer you should use: <br />
 ```
 timer.timerDidEnd { in
     print("Time Ended ")
