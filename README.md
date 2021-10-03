@@ -87,5 +87,5 @@ timer.timerDidEnd { in
 }
 ```
 <br />
-⚠️ Note: Do not forget to use `[weak self]` or `[unowned self]` to avoid retain cycle.
+###### ⚠️ Note: Do not forget to use `[weak self]` or `[unowned self]` to avoid retain cycle.
 <br />
