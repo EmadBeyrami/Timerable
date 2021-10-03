@@ -43,15 +43,22 @@ timer.bind { model in
 
 ## Line by Line guideline
 To use timer we need an instance: <br />
-``` swift let timer = TimeCounter()```
+``` swift 
+let timer = TimeCounter()
+```
 
 To tell timer what to do, we need a set of rules so we can pass whatever conforms to `Timerable` Protocol to initial the timer: <br />
-`timer.setTimer(time: Timerable)`
+``` swift
+timer.setTimer(time: Timerable)
+```
 
 I already made two type of `Timerable` in `TimerModels.swift` containing `TimeIncreasing` and `TimeDecreasing`. <br />
 <br />
 For decreasing Timer you can use: <br />
-`let decreasingTime = TimeDecreasing(time: [.seconds(30)])` <br />
+``` swift 
+let decreasingTime = TimeDecreasing(time: [.seconds(30)])
+```
+<br />
 <br />
 For increasing Timer you can use: <br />
 `let increasingTime = TimeIncreasing(time: [.days(1), .minutes(34), .seconds(20)])` <br />
