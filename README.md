@@ -74,13 +74,10 @@ timer.bind { model in
     print("log", model)
 } 
 ```
-
 2. For binding to finishing timer you should use: <br />
 ``` swift
 timer.timerDidEnd { in
     print("Time Ended ")
 }
 ```
-<br />
 ###### ⚠️ Note: Do not forget to use `[weak self]` or `[unowned self]` to avoid retain cycle.
-<br />
