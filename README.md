@@ -13,10 +13,10 @@ If you find this useful don't forget to star ⭐️.
 - Testable
 - Developer friendly
 
-## Timerable
+###### Timerable
 The Native Swift Timer. If you are using native swift and not using RxSwift you can use this file.
 
-## RxTimerable
+###### RxTimerable
 The RxSwift Timer. If you are using RxSwift you can use this File.
 
 # Usage
