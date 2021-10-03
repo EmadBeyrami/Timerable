@@ -66,7 +66,6 @@ After assigning initial values you MUST **START** the timer, to do so: <br />
 ``` swift
 timer.start()
 ```
-<br />
 For binding to Timer there are two callbacks: <br />
 1. For binding to update the UI or do something in each interval you must use: <br />
 ``` swift
