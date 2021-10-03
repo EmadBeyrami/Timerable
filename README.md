@@ -59,7 +59,7 @@ For decreasing Timer you can use: <br />
 let decreasingTime = TimeDecreasing(time: [.seconds(30)])
 ```
 For increasing Timer you can use: <br />
-```
+``` swift
 let increasingTime = TimeIncreasing(time: [.days(1), .minutes(34), .seconds(20)])
 ``` 
 <br />
