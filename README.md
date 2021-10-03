@@ -13,10 +13,10 @@ If you find this useful don't forget to star ⭐️.
 - Testable
 - Developer friendly
 
-###### Timerable
+## Timerable
 The Native Swift Timer. If you are using native swift and not using RxSwift you can use this file.
 
-###### RxTimerable
+## RxTimerable
 The RxSwift Timer. If you are using RxSwift you can use this File.
 
 # Usage
@@ -24,7 +24,7 @@ The RxSwift Timer. If you are using RxSwift you can use this File.
 2. in the class or wherever you want to use this Timer simply add these lines of codes.
 
  ⚠️ For better understanding read the line by line code documentation ⚠️
-``` 
+``` swift
 let timer = TimeCounter()
 let decreasingTime = TimeDecreasing(time: [.seconds(30)])
 let increasingTime = TimeIncreasing(time: [.days(1), .minutes(34), .seconds(20)])
