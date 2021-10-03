@@ -63,11 +63,10 @@ For increasing Timer you can use: <br />
 let increasingTime = TimeIncreasing(time: [.days(1), .minutes(34), .seconds(20)])
 ``` 
 <br />
-After assigning initial values you MUST START the timer, to do so: <br />
-```
+After assigning initial values you MUST START the timer, to do so:
+``` swift
 timer.start()
 ```
-<br />
 For binding to Timer there are two callbacks:
 1. For binding to update the UI or do something in each interval you must use: <br />
 ```
