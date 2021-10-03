@@ -43,7 +43,7 @@ timer.bind { model in
 
 ## Line by Line guideline
 To use timer we need an instance: <br />
-`let timer = TimeCounter()`
+``` swift let timer = TimeCounter()```
 
 To tell timer what to do, we need a set of rules so we can pass whatever conforms to `Timerable` Protocol to initial the timer: <br />
 `timer.setTimer(time: Timerable)`
