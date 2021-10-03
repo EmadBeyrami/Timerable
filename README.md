@@ -1,17 +1,17 @@
 # Timerable ⏰
 ### The most perfect Swift Timer you'll ever need.
 A protocol-oriented Timer Factory with all the features you'll ever need.
-I wrote it in both RxSwift and Native Swift. hope you'll enjoy.
+I wrote it in both **RxSwift** and **Native Swift**. hope you'll enjoy.
 If you find this useful don't forget to star ⭐️.
 
 ### features
-- Solved the background time problem: if your app state changes to background the timer won't stop and if you open the app you'll see the timer is still update.
-- Easy to use: Instead of making a timer for each part of your code easily use this few lines of codes.
-- Disposable: Instead of calling deinit to invalidate timer and remove the timer from memory manually just use this and it will do that automatically.
-- Protocol Oriented: You can conform to this protocol to easily use it.
-- Reactive
-- Testable
-- Developer friendly
+- **Solved the background time problem:** if your app state changes to background the timer won't stop and if you open the app you'll see the timer is still update.
+- **Easy to use:** Instead of making a timer for each part of your code easily use this few lines of codes.
+- **Disposable:** Instead of calling deinit to invalidate timer and remove the timer from memory manually just use this and it will do that automatically.
+- **Protocol Oriented:** You can conform to this protocol to easily use it.
+- **Reactive**
+- **Testable**
+- **Developer friendly**
 
 ## Timerable
 The Native Swift Timer. If you are using native swift and not using RxSwift you can use this file.
