@@ -1,4 +1,4 @@
-// RxTimeCounter.Swift
+// TimeCounter.Swift
 //
 // Designed and Developed By Emad Bayrami & Mohamad NasrAbadi
 // Link to Repo: https://github.com/EmadBeyrami/Timerable
@@ -119,7 +119,9 @@ class TimeCounter {
     }
     
     private func timeDone() {
-        timeEnded()
+        DispatchQueue.main.async {
+          timeEnded()   
+        }
         timer.suspend()
         state = .suspended
     }
@@ -142,7 +144,9 @@ class TimeCounter {
             }
             second -= time.jumpInterval
         }
-        logTime(stringTime)
+        DispatchQueue.main.async {
+            logTime(stringTime)
+        }
     }
     
 }
