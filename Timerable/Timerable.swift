@@ -6,7 +6,7 @@
 import Foundation
 
 // MARK: - Timerable
-protocol Timerable {
+protocol Timerable: CustomStringConvertible {
     var time: [TimeIntervalType] { get }
     var timerType: TimerType { get }
     var repeatTime: Double { get }
