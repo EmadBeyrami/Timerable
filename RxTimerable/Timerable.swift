@@ -5,7 +5,7 @@
 
 import Foundation
 
-protocol Timerable {
+protocol Timerable: CustomStringConvertible {
     var time: [TimeIntervalType] { get }
     var timerType: TimerType { get }
     var repeatTime: Int { get }
