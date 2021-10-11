@@ -31,6 +31,7 @@ extension Timerable {
     }
 }
 
+@frozen
 enum TimeIntervalType {
     case days(Double)
     case hours(Double)
@@ -57,6 +58,7 @@ enum TimerState {
     case suspended
 }
 
+@frozen
 enum TimerType {
     case increasing
     case decreasing
