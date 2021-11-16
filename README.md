@@ -1,5 +1,8 @@
 # Timerable ⏰
 ### The most perfect Swift Timer you'll ever need.
+[![swift-version](https://img.shields.io/badge/swift-5.1-brightgreen.svg)](https://github.com/apple/swift)
+[![rxswift](https://img.shields.io/badge/rxswift-5.0.1-brightgreen)](https://github.com/ReactiveX/RxSwift)
+[![xcode-version](https://img.shields.io/badge/xcode-11%20beta-brightgreen)](https://developer.apple.com/xcode/)
 A protocol-oriented Timer Factory with all the features you'll ever need.
 I wrote it in both **RxSwift** and **Native Swift**. hope you'll enjoy.
 If you find this useful don't forget to star ⭐️.
