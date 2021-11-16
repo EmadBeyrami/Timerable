@@ -1,15 +1,12 @@
 # Timerable ⏰
-
-![GitHub repo size](https://img.shields.io/github/repo-size/EmadBeyrami/Timerable?label=Repo%20Size&logo=Github&style=flat-square)
-[![swift-version](https://img.shields.io/badge/Swift-v4.0%20+-brightgreen.svg)](https://github.com/apple/swift)
-[![rxswift](https://img.shields.io/badge/RxSwift-v4.0%20+-brightgreen)](https://github.com/ReactiveX/RxSwift)
-[![xcode-version](https://img.shields.io/badge/XCode-11%20+-brightgreen)](https://developer.apple.com/xcode/)
-
 ### The most perfect Swift Timer you'll ever need.
 A protocol-oriented Timer Factory with all the features you'll ever need.
 I wrote it in both **RxSwift** and **Native Swift**. hope you'll enjoy.
 If you find this useful don't forget to star ⭐️.
-
+![GitHub repo size](https://img.shields.io/github/repo-size/EmadBeyrami/Timerable?label=Repo%20Size&logo=Github&style=flat-square)
+[![swift-version](https://img.shields.io/badge/Swift-v4.0%20+-brightgreen.svg)](https://github.com/apple/swift)
+[![rxswift](https://img.shields.io/badge/RxSwift-v4.0%20+-brightgreen)](https://github.com/ReactiveX/RxSwift)
+[![xcode-version](https://img.shields.io/badge/XCode-11%20+-brightgreen)](https://developer.apple.com/xcode/)
 ### features
 - **Solved the background time problem:** if your app state changes to background the timer won't stop and if you open the app you'll see the timer is still update.
 - **Easy to use:** Instead of making a timer for each part of your code easily use this few lines of codes.
