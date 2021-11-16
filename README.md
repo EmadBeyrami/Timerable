@@ -1,8 +1,8 @@
 # Timerable ⏰
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/EmadBeyrami/Timerable?label=Repo%20Size&logo=Github&style=flat-square)
-[![swift-version](https://img.shields.io/badge/swift-4.0%20+-brightgreen.svg)](https://github.com/apple/swift)
-[![rxswift](https://img.shields.io/badge/rxswift-4.0%20+-brightgreen)](https://github.com/ReactiveX/RxSwift)
+[![swift-version](https://img.shields.io/badge/swift-v4.0%20+-brightgreen.svg)](https://github.com/apple/swift)
+[![rxswift](https://img.shields.io/badge/rxswift-v4.0%20+-brightgreen)](https://github.com/ReactiveX/RxSwift)
 [![xcode-version](https://img.shields.io/badge/xcode-11%20+-brightgreen)](https://developer.apple.com/xcode/)
 
 ### The most perfect Swift Timer you'll ever need.
