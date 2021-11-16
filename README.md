@@ -1,6 +1,6 @@
 # Timerable ⏰
 
-[![repo-size]](https://img.shields.io/github/repo-size/EmadBeyrami/Timerable)]
+[![repo-size]](https://img.shields.io/github/repo-size/EmadBeyrami/Timerable?style=plastic)]()
 [![swift-version](https://img.shields.io/badge/swift-4%20+-brightgreen.svg)](https://github.com/apple/swift)
 [![rxswift](https://img.shields.io/badge/rxswift-4%20+-brightgreen)](https://github.com/ReactiveX/RxSwift)
 [![xcode-version](https://img.shields.io/badge/xcode-11%20+-brightgreen)](https://developer.apple.com/xcode/)
