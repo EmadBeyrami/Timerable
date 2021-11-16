@@ -1,6 +1,6 @@
 # Timerable ⏰
 
-[![swift-version](https://img.shields.io/badge/swift-5.1-brightgreen.svg)](https://github.com/apple/swift)
+[![swift-version](https://img.shields.io/badge/swift-4+-brightgreen.svg)](https://github.com/apple/swift)
 [![rxswift](https://img.shields.io/badge/rxswift-5.0.1-brightgreen)](https://github.com/ReactiveX/RxSwift)
 [![xcode-version](https://img.shields.io/badge/xcode-11%20beta-brightgreen)](https://developer.apple.com/xcode/)
 
