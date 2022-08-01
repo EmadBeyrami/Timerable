@@ -87,3 +87,6 @@ timer.timerDidEnd { in
 }
 ```
 ###### ⚠️ Note: Do not forget to use `[weak self]` or `[unowned self]` to avoid retain cycle.
+
+### Buy me a coffee:
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate/?hosted_button_id=FRY432D75E4Q2)
